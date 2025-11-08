@@ -1,0 +1,21 @@
+messages:
+  #请注意，文字无法改变颜色，样式
+
+  #提示标题（红色）
+  ban-title: "你的账号因可疑行为被暂时冻结"
+
+  #提示附标题（黄色）
+  ban-subtitle: "请立刻截图为你后续的申诉提供证据"
+
+  #封禁理由（红色，白色）
+  ban-reason: "检测到疑似使用矿物透视"
+
+  #申诉方式（红色）
+  appeal: "请联系管理员"
+
+settings:
+  #是否开启挖掘矿石时的警报
+  breaking-alarms: true
+
+  #是否将临时封禁逻辑替换为Litebans
+  use-litebans: false

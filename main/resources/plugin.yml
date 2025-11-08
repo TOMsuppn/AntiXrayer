@@ -1,0 +1,66 @@
+name: AntiXrayer
+version: '1.2.0'
+main: me.tomsuppn.antiXrayer.AntiXrayer
+api-version: '1.21'
+authors: [ TOMsuppn ]
+description: This is a minecraft server plugin for antixrayer
+commands:
+
+  XrayerDetector:
+    description: 封禁未经确认的矿透玩家
+    usage: /XrayerDetector <玩家>
+    permission: antixrayer.xrayerdetector
+    aliases: xd
+
+  axunban:
+    description: 解封矿透玩家
+    usage: /axunban <玩家>
+    permission: antixrayer.unban
+
+  axv:
+    description: 切换隐身状态
+    usage: /axv
+    permission: antixrayer.vanish
+    aliases: antixrayervanish
+
+  axb:
+    description: 返回上一次传送点
+    usage: /axb
+    permission: antixrayer.back
+    aliases: antixrayerback
+
+  axview:
+    description: 开启审查模式
+    usage: /axview <玩家>
+    permission: antixrayer.view
+    aliases: antixrayerview
+
+
+permissions:
+
+  antixrayer.xrayerdetector:
+    description: 允许使用 /XrayerDetector 命令
+    default: op
+
+  antixrayer.unban:
+    description: 允许使用 /axunban 命令
+    default: op
+
+  antixrayer.vanish:
+    description: 允许使用 /axv 命令
+    default: op
+
+  antixrayer.back:
+    description: 允许使用 /avb 命令
+    default: op
+
+  antixrayer.view:
+    description: 允许使用 /axview 命令
+    default: op
+
+  antixrayer.bypass:
+    description: 绕过反矿透的所有检测
+    default: op
+  antixrayer.alarm:
+    description: 接受反矿透的挖掘报警
+    default: op
